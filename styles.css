@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 14px;
+}
+
+header {
+    background-color: hsl(217, 28%, 15%);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+nav {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 2rem 0;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 30%;
+}
+
+.logo img {
+    width: 70%;
+}
+
+.nav-links {
+    display: flex;
+    width: 45%;
+    justify-content: space-between;
+}
+
+.header-bg {
+    width: 80%;
+    margin: auto;
+    z-index: 3;
+    position: relative;
+}
+
+.header-bg img {
+    width: 100%;
+}
+
+main {
+    background-color: hsl(218, 28%, 13%);
+    position: relative;
+}
+
+#curve {
+    width: 100%;
+    transform: translateY(-30%);
+    background-color: hsl(217, 28%, 15%);
+}
+
+#firstSection {
+    margin-top: -2rem;
+}
+
+#firstSection h1 {
+    color: white;
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    margin-top: -5rem;
+    position: relative;
+    z-index: 4;
+}
+
+#firstSection p {
+    color: white;
+    text-align: center;
+    width: 90%;
+    margin: 1rem auto;
+}
+
+#firstSection button {
+    padding: 15px 70px;
+    background-color: hsl(198, 60%, 50%);
+    color: white;
+    border: 1px solid hsl(198, 60%, 50%);
+    border-radius: 30px;
+    margin: auto;
+    display: block;
+    margin-top: 2rem;
+}
+
+#secondSection {
+    width: 85%;
+    margin: 10rem auto;
+}
+
+.storage-details-1, .storage-details-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.storage-details-1 #access {
+    width: 23%;
+}
+
+.storage-details-1 div img, .storage-details-2 div img {
+    margin-bottom: 2rem;
+}
+
+.storage-details-1 div h3, .storage-details-2 div h3 {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.storage-details-1 div p, .storage-details-2 div p {
+    margin-bottom: 7rem;
+    text-align: center;
+}
+
+.storage-icons {
+    width: 15%;
+    margin: auto;
+    display: block;
+}
+
+.stay-productive {
+    display: flex;
+    flex-direction: column;
+}
+
+#prod-img {
+    width: 90%;
+    display: block;
+    margin: 3rem auto;
+}
+
+.productive-text {
+    margin-bottom: 3rem;
+}
+
+.productive-text h3, .productive-text p {
+    margin-bottom: 1rem;
+}
+
+.how {
+    display: flex;
+    border-bottom: 1px solid hsl(176, 68%, 64%);
+    width: fit-content;
+}
+
+.how p {
+    color: hsl(176, 68%, 64%);
+    font-size: 12px;
+    display: inline;
+    margin-bottom: 8px;
+}
+
+.how img {
+    height: fit-content;
+    margin-left: 6px;
+}
+
+#thirdSection {
+    width: 75%;
+    margin: auto;
+}
+
+#thirdSection img {
+    width: 10%;
+}
+
+#cards {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    background-color: hsl(219, 30%, 18%);
+    border: 1px solid hsl(219, 30%, 18%);
+    border-radius: 5px;
+    padding: 25px;
+    margin-bottom: 2rem;
+}
+
+.card p {
+    font-size: 12px;
+}
+
+.profile {
+    display: flex;
+    margin-top: 1.5rem;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.card img {
+    border-radius: 50%;
+    margin-right: 5%;
+}
+
+.name p {
+    font-size: 10px;
+}
+
+#lastSection {
+    background-color: hsl(217, 28%, 15%);
+    border: 1px solid hsl(217, 28%, 15%);
+    border-radius: 10px;
+    padding: 40px;
+    width: 85%;
+    margin: auto;
+    transform: translateY(50%);
+}
+
+#lastSection h3, #lastSection p {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#emailAndSignUp {
+    display: flex;
+    flex-direction: column;
+}
+
+#emailAndSignUp input, #emailAndSignUp button {
+    padding: 18px 60px;
+    border-radius: 40px;
+    margin-top: 1.5rem;
+}
+
+#emailAndSignUp input {
+    border: 1px solid white;
+}
+
+#emailAndSignUp button {
+    border: 1px solid hsl(198, 60%, 50%);
+    background-color: hsl(198, 60%, 50%);
+    color: white;
+}
+
+footer {
+    background-color: hsl(216, 53%, 9%);
+    padding-top: 18rem;
+}
+
+#footerLogo {
+    margin-left: 12%;
+    margin-bottom: 1.5rem;
+    display: block;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: auto;
+}
+
+.location, .phone, .email {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+
+.location div, .phone div, .email div {
+    margin-top: 1%;
+}
+
+.location p, .contact p {
+    width: 90%;
+}
+
+.first-footer-links, .second-footer-links {
+    margin-top: 4rem;
+}
+
+.first-footer-links li a, .second-footer-links li a {
+    font-size: 16px;
+}
+
+.first-footer-links li, .second-footer-links li {
+    margin-bottom: 1rem;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}

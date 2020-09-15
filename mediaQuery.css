@@ -1,0 +1,174 @@
+/* @media (min-width: 600px) and (max-width: 300px) {
+
+} */
+@media screen and (min-width: 600px) {
+    .logo {
+        width: 20%;
+    }
+
+    .nav-links {
+        width: 20%;
+    }
+    .header-bg img {
+        width: 80%;
+        margin: auto;
+        display: block;
+    }
+
+    #firstSection {
+        margin: auto;
+        width: 50%;
+        margin-top: -30%;
+    }
+
+    #firstSection p {
+        position: relative;
+        z-index: 5;
+    }
+
+    #firstSection button {
+        position: relative;
+        z-index: 5;
+    }
+
+    .storage-details-1, .storage-details-2 {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .storage-details-1 div, .storage-details-2 div {
+        width: 45%;
+    }
+
+    .stay-productive {
+        flex-direction: row;
+    }
+
+    #prod-img, .productive-text {
+        width: 45%;
+    }
+
+    .productive-text {
+        align-self: center;
+    }
+
+    #thirdSection {
+        width: 85%;
+    }
+
+    #cards {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .card {
+        width: 30%;
+    }
+
+    #lastSection {
+        width: 65%;
+    }
+
+    #emailAndSignUp {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #emailAndSignUp input {
+        padding: 18px 95px;
+    }
+
+    .footer-content {
+        flex-direction: row;
+    }
+
+    .location {
+        width: 60%;
+    }
+
+    .contact p {
+        width: 80%;
+    }
+
+    .first-footer-links, .second-footer-links {
+        margin-top: 1.4rem;
+        width: 20%;
+    }
+
+    .contact {
+        width: 40%;
+    }
+
+    .socials {
+        margin-top: 1.5rem;
+        width: 20%;
+    }
+
+    .footer-social {
+        display: block;
+    }
+
+}
+
+@media screen and (max-width: 1124px) {
+    #emailAndSignUp input, #emailAndSignUp button {
+        padding: 18px 40px;
+    }
+
+    #emailAndSignUp input {
+        padding: 18px 65px;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    #emailAndSignUp input, #emailAndSignUp button {
+        padding: 15px 30px;
+    }
+
+    #emailAndSignUp input {
+        padding: 15px 55px;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    #emailAndSignUp input, #emailAndSignUp button {
+        padding: 10px 15px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .nav-links {
+        width: 30%;
+    }
+
+    .footer-content {
+        width: 90%;
+    }
+
+    .first-footer-links li a, .second-footer-links li a {
+        font-size: 12px;
+    }
+
+    .phone p, .email p {
+        font-size: 12px;
+    }    
+}
+
+
+@media screen and (max-width: 530px) {
+    .nav-links {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .nav-links {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 325px) {
+    .nav-links {
+        width: 60%;
+    }
+}
